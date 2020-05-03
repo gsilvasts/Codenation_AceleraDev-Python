@@ -30,6 +30,7 @@ dados = {
 
 archive = open('answer.json', "w")
 json.dump(dados, archive)
+
 archive.close()
 
 url = 'https://api.codenation.dev/v1/challenge/dev-ps/submit-solution?token=d057816a07d0118ec4335d2ae94c360f85899cd7'
